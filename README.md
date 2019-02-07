@@ -1,31 +1,7 @@
-Data Science from Scratch
+Data Science from Scratch Fork for CSE485 Course
 =========================
-
-Here's all the code and examples from my book __[Data Science from Scratch](http://joelgrus.com/2015/04/26/data-science-from-scratch-first-principles-with-python/)__. The `code` directory contains Python 2.7 versions, and the `code-python3` direction contains the Python 3 equivalents. (I tested them in 3.5, but they should work in any 3.x.)
-
-**July 2018: I am currently working on the second edition. It will be based on Python 3.6, will have much cleaner code, and will contain expanded coverage of deep learning, NLP, and whatever else I feel like adding. Stay tuned.**
-
-Each can be imported as a module, for example (after you cd into the /code directory):
-
-```python
-from linear_algebra import distance, vector_mean
-v = [1, 2, 3]
-w = [4, 5, 6]
-print distance(v, w)
-print vector_mean([v, w])
-```
-  
-Or can be run from the command line to get a demo of what it does (and to execute the examples from the book):
-
-```bat
-python recommender_systems.py
-```  
-
-Additionally, I've collected all the [links](https://github.com/joelgrus/data-science-from-scratch/blob/master/links.md) from the book.
-
-And, by popular demand, I made an index of functions defined in the book, by chapter and page number. 
-The data is in a [spreadsheet](https://docs.google.com/spreadsheets/d/1mjGp94ehfxWOEaAFJsPiHqIeOioPH1vN1PdOE6v1az8/edit?usp=sharing), or I also made a toy (experimental) [searchable webapp](http://joelgrus.com/experiments/function-index/).
-
+I aim to use the books original code as the base to develop code for CSE485 Data Mining Course.
+See the Joel's original [page](https://github.com/joelgrus/data-science-from-scratch) for the original code. 
 ## Table of Contents
 
 1. Introduction
